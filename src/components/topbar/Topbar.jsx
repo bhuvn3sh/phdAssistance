@@ -12,10 +12,10 @@ function topbar() {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
-                    <pre class="mb-0 phone pl-md-2">
+                    <p class="mb-0 phone pl-md-2">
                         <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a> 
                         <a href="#"><span class="fa fa-paper-plane mr-1 ml-4"></span> youremail@email.com</a>
-                    </pre>
+                    </p>
                 </div>
                 <div class="col-md-6 d-flex justify-content-md-end">
                     <div class="social-media">
@@ -29,7 +29,7 @@ function topbar() {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
         </div>
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
