@@ -119,3 +119,12 @@ a {
   }
 
 /* css for navbar */
+navbar{
+  background-color: 141619;
+}
+.nav .navdropdown {
+  color: #141619; /* Replace with your desired color */
+}
+.bg-dark{
+  background-color: #EDE8F5;
+}
