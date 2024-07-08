@@ -32,15 +32,22 @@ function topbar() {
         </div>
         </div>
         </div>
-        <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+        <Navbar expand="lg" className=" bg-body-tertiary">
+         <Container>
+         <Navbar.Brand href="#home">
+            <img
+              src="./assets/Phdassistance-New-Logo.png"
+              width="70"
+              height="70"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+         </Navbar.Brand>
+         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto" style={{ marginLeft: '220px' }}>
+            <Nav.Link href="#home">About</Nav.Link>
+            <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -51,10 +58,25 @@ function topbar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown title="Industries" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#home">Pricing</Nav.Link>
+            <Nav.Link href="#home">Help-Guide</Nav.Link>
+            <Nav.Link href="#home">Contact</Nav.Link>
+            <Nav.Link href="#home">Hire A Research Assistant</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+         </Navbar.Collapse>
+         </Container>
+        </Navbar>
     </div>
   )
 }
