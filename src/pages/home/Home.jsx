@@ -87,8 +87,8 @@ function Home() {
       </div>
 
       <section class="ftco-intro">
-        <div class="container" style ={{ margin: '10px 0px', marginLeft: '0px'}}>
-          <div class="row no-gutters " style = {{ marginLeft: '20px'}}>
+        <div class="container" style ={{ width: '100%', marginRight: 'auto', marginLeft: 'auto', paddingLeft: '15px', paddingRight: '15px'}}>
+          <div class="row no-gutters ">
 
             <div class="col-md-3 d-flex">
               <div class="intro aside-stretch d-lg-flex w-60">

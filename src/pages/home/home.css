@@ -241,3 +241,29 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.col-md-3{
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+.ftco-intro .intro.aside-stretch::after {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  content: '';
+  width: 360%;
+  background: #ADBBDA;
+  z-index: 99;
+}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
