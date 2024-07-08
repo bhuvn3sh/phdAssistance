@@ -77,7 +77,7 @@ function topbar() {
           </div>
         </div>
       </div>
-      <Navbar sticky="top" expand="lg" style= {{ backgroundColor: '#f2f2f2' }}>
+      <Navbar expand="lg" sticky="bottom" style= {{ backgroundColor: '#f2f2f2' }}>
         <Container>
           <Navbar.Brand href="#home" style={{ marginRight: "50px" }}>
             <img
