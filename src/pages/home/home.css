@@ -179,16 +179,65 @@
   .slider-text .img-video span {
     color: #141619;
     font-size: 24px;
-  }
-  .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-      font-size: 14px;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .fa-play::before {
-    content: "\f04b";
   } */
+  
+
+section{
+  display: block;
+}
+.no-gutters > .col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro.color-1 {
+  background: #ADBBDA;
+}
+@media (min-width: 768px) {
+  .ftco-intro .intro {
+    margin-top: -70px;
+  }
+}
+.ftco-intro .intro {
+  z-index: 0;
+  position: relative;
+}
+.intro {
+  width: 100%;
+  background: #ADBBDA;
+  padding: 30px;
+}
+.ftco-intro .intro.aside-stretch {
+  background: #ADBBDA;
+}
+@media (min-width: 768px) {
+  .ftco-intro .intro {
+    margin-top: -70px;
+  }
+}
+.ftco-intro .intro {
+  z-index: 0;
+  position: relative;
+}
+.intro .icon {
+  margin-right: 20px;
+}
+.intro .icon span {
+  font-size: 30px;
+  color: #fff;
+}
+.intro .text {
+  color: #141619;
+}
+.intro .text h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
