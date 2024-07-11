@@ -195,7 +195,7 @@ function Home() {
         <div className="container">
           <div className=" row justify-content-center pb-5">
             <div className="heading-section text-center ftco-animate fadeInUp ftco-animated">
-              <h1 style={{ fontWeight: 600, color: '#8697c4' }}>
+              <h1 style={{ fontWeight: 600, color: "#8697c4" }}>
                 Check at what stage you’re into & Analyse how you can fit into
                 our engagement model
               </h1>
@@ -206,7 +206,7 @@ function Home() {
                 and mentoring researchers across the globe.{" "}
               </p>
             </div>
-            <div style={{ marginLeft: "180px", marginTop: '30px' }}>
+            <div style={{ marginLeft: "180px", marginTop: "30px" }}>
               <div className="row">
                 <div
                   className="person col-md-4 d-flex align-items-stretch"
@@ -232,7 +232,7 @@ function Home() {
                       height="80"
                       style={{ marginBottom: "20px" }}
                     />
-                    <p style={{ marginBottom: "20px", color: 'grey' }}>
+                    <p style={{ marginBottom: "20px", color: "grey" }}>
                       ” I am done with my thesis; I need an expert to review &
                       provide external comments & addressing those after a
                       mutual agreement “{" "}
@@ -275,7 +275,7 @@ function Home() {
                       height="80"
                       style={{ marginBottom: "20px" }}
                     />
-                    <p style={{ marginBottom: "20px", color: 'grey' }}>
+                    <p style={{ marginBottom: "20px", color: "grey" }}>
                       “I find it difficult to identify the latest articles for
                       my research study. I am not aware of how to extract
                       articles and synthesize them. “{" "}
@@ -318,7 +318,7 @@ function Home() {
                       height="80"
                       style={{ marginBottom: "20px" }}
                     />
-                    <p style={{ marginBottom: "20px", color: 'grey' }}>
+                    <p style={{ marginBottom: "20px", color: "grey" }}>
                       ” I have written more than 300 pages, and I need someone
                       who can sit with me and work along with it to edit my
                       thesis. “{" "}
@@ -361,7 +361,7 @@ function Home() {
                       height="80"
                       style={{ marginBottom: "20px" }}
                     />
-                    <p style={{ marginBottom: "20px", color: 'grey' }}>
+                    <p style={{ marginBottom: "20px", color: "grey" }}>
                       ” I have developed a questionnaire and got data; it seems
                       when I run the analyses, I could not able to get the
                       results that I am looking for. “{" "}
@@ -385,6 +385,42 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section style={{ margin: '0px 200px'}}>
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-md-6 img img-3 d-flex justify-content-center align-items-center"
+              style={{ backgroundImage: "url( ./assets/blog-banner.png )" }}
+            ></div>
+            <div className="col-md-6 wrap-about px-md-5 py-5 bg-light">
+              <div className="heading-section">
+                <span className="subheading"> Welcome to Phd Assistance </span>
+                <h2 className="mb-4">Best Dissertation Writing Services.</h2>
+                <p>
+                  The research journey is messy, full of difficulties and
+                  surprises, hard work, beginnings and some form of closure.
+                  ‘PhDAssistance Research Lab’ travels as part of this journey
+                  by supervising and mentoring PhD researchers across the globe.{" "}
+                </p>
+                <p>
+                  With years of experience in the industry, we have framed our
+                  work standards, including PhD service engagement models, to
+                  ensure smooth collaboration between our experts and our
+                  clients.{" "}
+                </p>
+                <a className="play-video popup-vimeo d-flex align-items-center mt-4 " href="https://youtu.be/0OOA1ShNJn8">
+                <div className="icon d-flex align-items-center justify-content-center">
+                  <span className=" fa fa-play "></span>
+                </div>
+                <span className="watch">Take a look at our process flow</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <Footer />
     </>
   );
